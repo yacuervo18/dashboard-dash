@@ -536,8 +536,6 @@ def mini_grafico_suscriptores(_):
 
 # ---------------------------------------------------------------------------
 
-
-
 # Para ejecutar
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(host='0.0.0.0', port=8000, debug=False)
